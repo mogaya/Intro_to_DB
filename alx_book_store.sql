@@ -50,4 +50,4 @@ CREATE TABLE
         FOREIGN KEY (book_id) REFERENCES Books(book_id)
     );
 
--- Added Again
+-- mysql -u your_username -p < alx_book_store.sql
